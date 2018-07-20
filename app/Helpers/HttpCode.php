@@ -1,0 +1,16 @@
+<?php
+
+namespace App\Helpers;
+
+class HttpCode
+{
+    CONST OK = 200;
+    CONST CREATED = 201;
+    CONST DELETED = 204;
+    CONST BAD_REQUEST = 400;
+    CONST UNAUTHORIZED = 401;
+    CONST FORBIDDEN = 403;
+    CONST NOT_FOUND = 404;
+    CONST CONFLICT = 409;
+    CONST UNPROCESSABLE_ENTITY = 422;
+}
